@@ -13,13 +13,14 @@
 
 body {
     background-color: #F0F2F5;
-    width: 100vw;
-    
+    width: 98vw;
+    margin: auto;
 }
 
 main {
-    width: 100vw;
-    
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
 }
 
 h1 {
@@ -32,36 +33,49 @@ h1 {
 }
 
 #formulario {
-    height: 60vh;
     border-radius: 8px;
     box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
+    margin: auto;
 }
 
 h2 {
     font-family: var(--fonte-titulo);
     padding: 8px;
+    text-align: center;
 }
 
 #subtitulo {
     font-family: var(--fonte-titulo);
     font-size: 14px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 hr {
     margin-bottom: 20px;
 }
 
+#form {
+    border-radius:8px;
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
+    height: 80vh;
+    background-color: white;
+    margin: auto;
+}
+
 #nome {
     width: 197px;
     height: 30px;
     border-radius: 5px;
+    transform: translate(50%);
+    
 }
 
 #apelido {
     width: 197px;
     height: 30px;
     border-radius: 5px;
+    transform: translate(50%);
 }
 
 #email {
@@ -69,6 +83,7 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
+    transform: translate(15%);
 }
 
 #password {
@@ -76,6 +91,7 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
+    transform: translate(15%);
 }
 
 #nascimento {
@@ -87,7 +103,7 @@ hr {
 }
 
 #data-nascimento {
-    transform: translate(-100%);
+    transform: translate(25%);
     margin-top: 5px;
 
 }
@@ -100,33 +116,33 @@ hr {
 }
 
 #feminino {
-    position: relative;
     top: 2px;
 }
 
 #masculino {
-    position: relative;
     top: 2px;
     right: 3px;
 }
 
 #outros {
-    position: relative;
+    
     top: 2px;
     right: 3px;
 }
 
 .generos {
    padding-right: 10px;
+   position: relative;
+   left: 20%;
 }
 
 #termos {
     font-family: var(--fonte-titulo);
     font-size: 10px;
-    text-align: justify;
-    width: 300px;
-    padding-left: 20px;
-    padding-top: 10px;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #registrar {
@@ -149,7 +165,8 @@ hr {
 }
 
 #ja-tem-conta {
-    margin: auto;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-family: var(--fonte-titulo);
     font-size: 14px;

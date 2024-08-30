@@ -33,9 +33,11 @@ h1 {
 }
 
 #formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
-    margin: auto;
 }
 
 h2 {
@@ -56,27 +58,28 @@ hr {
 }
 
 #form {
-    border-radius:8px;
-    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.126);
-    height: 80vh;
-    background-color: white;
-    margin: auto;
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: center; /* Centraliza os itens */
+    padding: 20px;
+    border: 1px solid #ccc; /* Apenas para visualização, opcional */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 90%; /* Largura máxima para dispositivos móveis */
+    max-width: 400px; /* Limite de largura para não ficar muito grande */
+    background-color: #fff; /* Fundo branco para contraste */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 #nome {
     width: 197px;
     height: 30px;
     border-radius: 5px;
-    position: relative;
-    left: ;
 }
 
 #apelido {
     width: 197px;
     height: 30px;
     border-radius: 5px;
-    position: relative;
-    left: 100px;
 }
 
 #email {
@@ -84,8 +87,6 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
-    position: relative;
-    left: 50px;
 }
 
 #password {
@@ -93,8 +94,6 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
-    position: relative;
-    left: 50px;
 }
 
 #nascimento {
@@ -111,8 +110,7 @@ hr {
 }
 
 #genero {
-    text-align: left;
-    padding-left: 20px;
+    text-align: center;
     padding-top: 10px;
     color: rgba(0, 0, 0, 0.852);
 }
@@ -133,8 +131,6 @@ hr {
 
 .generos {
    padding-right: 10px;
-   position: relative;
-   left: 20%;
 }
 
 #termos {

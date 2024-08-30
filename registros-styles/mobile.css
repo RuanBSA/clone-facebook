@@ -11,16 +11,16 @@
     --fonte-titulo: "Noto Sans";
 }
 
-body {
+html, body {
     background-color: #F0F2F5;
-    width: 98vw;
+    width: 100vw;
     margin: auto;
 }
 
 main {
     margin: auto;
     width: 80vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 h1 {
@@ -67,15 +67,16 @@ hr {
     width: 197px;
     height: 30px;
     border-radius: 5px;
-    transform: translate(50%);
-    
+    position: relative;
+    left: 100px;
 }
 
 #apelido {
     width: 197px;
     height: 30px;
     border-radius: 5px;
-    transform: translate(50%);
+    position: relative;
+    left: 100px;
 }
 
 #email {
@@ -83,7 +84,8 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
-    transform: translate(15%);
+    position: relative;
+    left: 50px;
 }
 
 #password {
@@ -91,7 +93,8 @@ hr {
     height: 30px;
     border-radius: 5px;
     margin-top: 8px;
-    transform: translate(15%);
+    position: relative;
+    left: 50px;
 }
 
 #nascimento {
@@ -103,7 +106,6 @@ hr {
 }
 
 #data-nascimento {
-    transform: translate(25%);
     margin-top: 5px;
 
 }
@@ -125,7 +127,6 @@ hr {
 }
 
 #outros {
-    
     top: 2px;
     right: 3px;
 }
@@ -142,7 +143,7 @@ hr {
     text-align: center;
     width: 60vw;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #registrar {
@@ -150,7 +151,7 @@ hr {
     margin: auto;
     font-size: 16px;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 35px;
     width: 150px;
     background-color: #00A400;

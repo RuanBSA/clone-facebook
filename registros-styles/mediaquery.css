@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+@media print { /* Versao impressora */
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    main {
+        margin: auto;
+    }
+
+    #form {
+        margin: auto;
+    }
+    
+    #termos {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+    main {
+        margin: auto;
+    }
+
+    #form {
+        margin: auto;
+    }
+
+    #termos {
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+
+    #termos {
+        width: 20vw;
+    }
+}

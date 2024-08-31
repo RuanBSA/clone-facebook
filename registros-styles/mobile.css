@@ -131,6 +131,7 @@ hr {
 
 .generos {
    padding-right: 10px;
+   display: none;
 }
 
 #termos {

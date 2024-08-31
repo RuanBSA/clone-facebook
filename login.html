@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Facebook</title>
     <link rel="shortcut icon" href="imagens/logo-facebook.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="login-style/mobile.css">
 </head>
 <body>
     <main>
@@ -13,15 +13,19 @@
         <div id="card">
             <h2>Início de sessão no Facebook</h2>
 
-            <form action="" id="formulario" method="post" autocomplete="off" target="_blank">
-                <label for="email"><input type="text" placeholder="   E-mail ou telefone" name="email" id="email"></label>
-                <label for="password"><input type="text" placeholder="   Senha" name="password" id="password"></label>
+            <form action="#" id="formulario" method="post" autocomplete="off" target="_blank">
+                <label for="email">
+                    <input type="text" placeholder="E-mail ou telefone" name="email" id="email" required>
+                </label>
+                <label for="password">
+                    <input type="text" placeholder="Senha" name="password" id="password" required>
+                </label>
 
-                <label for=""><input type="submit" value="Iniciar sessão" id="sessao"></label>
+                <button type="submit" id="sessao">Iniciar sessão</button>
             </form>
             <a href="#" id="esqueceu-senha">Esqueceu a senha?</a>
             <hr>
-            <label for=""><input type="submit" value="Criar nova conta" id="criar-conta"></label>
+            <button id="criar-conta">Criar nova conta</button>
         </div>
 
 
